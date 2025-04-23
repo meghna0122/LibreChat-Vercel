@@ -19,10 +19,5 @@
       "src": "/(.*)",
       "dest": "client/$1"
     }
-  ],
-  "env": {
-    "OPENAI_API_KEY": "@openai-api-key",
-    "MONGO_URI": "@mongo-uri",
-    "JWT_SECRET": "@jwt-secret"
-  }
+  ]
 }
